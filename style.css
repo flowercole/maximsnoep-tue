@@ -30,3 +30,30 @@ h2 {
 li {
 	margin-left: 30px;
 }
+
+body {
+    margin:0;
+    padding:0;
+    border:0;
+    max-width:100%;
+    max-height:100%;
+    background-color:transparent;
+    -webkit-animation: colorPulse 40s  infinite alternate;
+	z-index:1;
+}
+
+@-webkit-keyframes colorPulse {
+      0% {background-color:#B10404;}
+     8% {background-color:#B15A04;}
+    16% {background-color:#B1B104;}
+      24% {background-color:#5AB104;}
+     32% {background-color:#04B104;}
+    40% {background-color:#04B15A;}
+      48% {background-color:#04B1B1;}
+     56% {background-color:#045AB1;}
+    64% {background-color:#0404B1;}
+      72% {background-color:#5A04B1;}
+     80% {background-color:#B104B1;}
+    100% {background-color:#B1045A;}
+	
+}	
