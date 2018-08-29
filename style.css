@@ -11,8 +11,9 @@
 	margin: 50px;
 	padding: 50px;
 	background-color: #eee;
+	opacity:0.9;
 	border-radius: 50px;
-	box-shadow: 5px 5px #333;
+	box-shadow: 5px 5px #333333f2;
 }
 
 p {
