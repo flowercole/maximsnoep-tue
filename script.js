@@ -25,7 +25,12 @@ window.onbeforeunload=function(){
 	window.localStorage['leave']=leave;
 }		
 
+function loadfunction(){
+	time=new Date();
+	away = d.getTime() - localStorage.getItem('leave') - localStorage.getItem('timeSite');
+	FollowBackground()		
+}
 
 $( document ).ready(function() {
-  FollowBackground();
+  loadfunction();
 });
